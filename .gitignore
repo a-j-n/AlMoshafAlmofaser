@@ -3,3 +3,7 @@
 /.vscode
 /.vagrant
 .env
+public/*.jpg
+public/*.png
+public/images/*.png
+public/images/*.jpg

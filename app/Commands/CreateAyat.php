@@ -28,7 +28,7 @@ class CreateAyat extends Command
                 $font->valign('top');
                 $font->angle(0);
             });
-            $img->save(public_path($aya->sura . '_' . $aya->aya . '.jpg'), 80);
+            $img->save(public_path('images/'.$aya->sura . '_' . $aya->aya . '.jpg'), 80);
 
             $bar->advance();
 
